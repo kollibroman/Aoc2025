@@ -1,4 +1,6 @@
-﻿namespace Aoc2025;
+﻿using Aoc2025.Days;
+
+namespace Aoc2025;
 
 class Program
 {

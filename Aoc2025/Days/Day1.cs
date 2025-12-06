@@ -1,10 +1,10 @@
-namespace Aoc2025;
+namespace Aoc2025.Days;
 
 public class Day1
 {
     private static async Task<List<string>> GetInputList()
     {
-        var inputArr = await File.ReadAllLinesAsync("/home/kollibroman/LosoweProjekty/Aoc2025/Aoc2025/Input/Day1.txt");
+        var inputArr = await File.ReadAllLinesAsync("./Input/Day1.txt");
         return inputArr.ToList();    
     }
     
