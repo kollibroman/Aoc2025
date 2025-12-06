@@ -6,7 +6,7 @@ public class Day2
 {
     private static async Task<List<string>> GetInputList()
     {
-        var fileInput = await File.ReadAllTextAsync("/home/kollibroman/LosoweProjekty/Aoc2025/Aoc2025/Input/Day2.txt");
+        var fileInput = await File.ReadAllTextAsync("./Input/Day2.txt");
         
         return fileInput.Split(',').Select(s => s.Trim()).ToList();
     }
